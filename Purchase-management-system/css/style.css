@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+}
+.navbar {
+    background: #2c3e50;
+    padding: 12px 20px;
+}
+.navbar b {
+    color: white;
+    margin-right: 20px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.container {
+    width: 90%;
+    max-width: 950px;
+    margin: 25px auto;
+}
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    max-width: 550px;
+    margin: 20px auto;
+}
+.box.small {
+    max-width: 380px;
+    margin-top: 60px;
+}
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button, .btn {
+    background: #3498db;
+    color: white;
+    padding: 9px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 15px;
+}
+button.green { background: #27ae60; }
+button.red { background: #e74c3c; }
+button.small-btn { padding: 5px 9px; margin-top: 0; }
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin-top: 15px;
+}
+th, td {
+    padding: 9px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th {
+    background: #ecf0f1;
+}
+.cards {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+.card-box {
+    background: white;
+    padding: 15px 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+}
+.card-box h3 {
+    font-size: 28px;
+    margin: 0;
+}
+.error {
+    background: #f8d7da;
+    color: #721c24;
+    padding: 8px;
+    border-radius: 4px;
+}
+.success {
+    background: #d4edda;
+    color: #155724;
+    padding: 8px;
+    border-radius: 4px;
+}
+.status {
+    padding: 3px 8px;
+    border-radius: 4px;
+    color: white;
+    font-size: 13px;
+}
+.status.pending { background: #f39c12; }
+.status.approved { background: #27ae60; }
+.status.rejected { background: #e74c3c; }
